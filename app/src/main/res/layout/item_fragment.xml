@@ -20,59 +20,111 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_pga"
-        android:layout_width="0dp"
+    <RadioGroup
+        android:id="@+id/rg_pg"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="TextView"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_soal" />
+        app:layout_constraintTop_toBottomOf="@id/tv_soal">
 
-    <TextView
-        android:id="@+id/tv_pgb"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="TextView"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_pga" />
+        <RadioButton
+            android:layout_margin="5dp"
+            android:id="@+id/rb_pga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@color/colorAccent"/>
+        <RadioButton
+            android:layout_margin="5dp"
+            android:id="@+id/rb_pgb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@color/colorAccent"/>
+        <RadioButton
+            android:layout_margin="5dp"
+            android:id="@+id/rb_pgc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@color/colorAccent"/>
+        <RadioButton
+            android:layout_margin="5dp"
+            android:id="@+id/rb_pgd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:background="@color/colorAccent"/>
+    </RadioGroup>
 
-    <TextView
-        android:id="@+id/tv_pgc"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="TextView"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_pgb" />
+<!--    <TextView-->
+<!--        android:id="@+id/tv_pga"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_soal" />-->
 
-    <TextView
-        android:id="@+id/tv_pgd"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:text="TextView"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_pgc" />
+<!--    <TextView-->
+<!--        android:id="@+id/tv_pgb"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_pga" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_pgc"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_pgb" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_pgd"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_pgc" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

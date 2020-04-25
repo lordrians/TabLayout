@@ -22,33 +22,33 @@ public class dtSoal {
     private static String[] pgB = {
             "B. 2",
             "B. 2",
-            "A. 1",
-            "A. 1",
+            "B. 1",
+            "B. 1",
             "B. 3"
     };
 
     private static String[] pgC = {
             "C. 3",
             "C. 3",
-            "A. 1",
-            "A. 1",
+            "C. 1",
+            "C. 1",
             "C. 4"
     };
 
     private static String[] pgD = {
             "D. 4",
             "D. 4",
-            "A. 1",
-            "A. 1",
+            "D. 1",
+            "D. 1",
             "D. 5",
     };
 
     private static String[] correctAns = {
-            "B. 2",
-            "B. 2",
             "A. 1",
-            "A. 1",
-            "D. 5",
+            "B. 2",
+            "C. 1",
+            "D. 1",
+            "E. 5",
     };
 
     public static ArrayList<Soal> getData(){

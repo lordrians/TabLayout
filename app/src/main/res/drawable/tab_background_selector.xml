@@ -11,4 +11,5 @@
         android:drawable="@drawable/capsule"
         android:state_selected="false"/>
 
+
 </selector>
